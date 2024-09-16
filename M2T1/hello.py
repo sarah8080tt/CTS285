@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     # three quotes for multiline strings
-    name = "Sarah"
+    #name = "Sarah"
     return render_template("main_page.html", name=name)
     
 
